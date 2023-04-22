@@ -10,6 +10,7 @@ var items = [
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 port = 3000;
 
 app.get("/", (req, res) => {
