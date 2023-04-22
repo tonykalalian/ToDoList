@@ -1,2 +1,2 @@
 # ToDoList
-My First To-Do-List using embedded javascriot EJS
+To-Do-List using embedded javascript EJS
