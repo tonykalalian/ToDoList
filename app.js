@@ -37,6 +37,6 @@ app.post("/work", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about");
 });
-app.listen(port, () => {
+app.listen(port || process.env.PORT , () => {
   console.log(`server is running on port ${port}`);
 });
